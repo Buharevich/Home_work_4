@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+void main() {
+	long long k;
+	int m;
+	cout << "Enter a number:\n";
+	cin >> k;
+	cout << "The result is:\n";
+	while (k > 0) {
+		m = k % 10;
+		k /= 10;
+		cout << m;
+	}
+	cout << endl;
+}
