@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+void main() {
+long long a, b;
+int cnt = 0;
+cout << "Enter a number:\n";
+cin >> a;
+while (a > 0) {
+	b = a % 10;
+	a /= 10;
+	cnt++;
+}
+cout << "The number of the numerics is " << cnt << endl;
+}
