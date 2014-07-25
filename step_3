@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+void main() {
+	long long c;
+	int d, sum = 0;
+	cout << "Enter a number:\n";
+	cin >> c;
+	while (c > 0) {
+		d = c % 10;
+		sum += d;
+		c /= 10;
+	}
+	cout << "The amount of the number's numerics is " << sum << endl;
+}
